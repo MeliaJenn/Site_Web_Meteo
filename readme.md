@@ -6,7 +6,7 @@ Le but de ces TPs est de réaliser le même site plusieurs fois avec des nouveau
 - Une version reprenant la première utilisant Boostrap et ajoutant des prévisions sur 7 jours
 - Une version reprenant la seconde avec comme nouveauté l'utilisation du framework Vue.js
 
-Ce site met à disposition une barre de recherche permettant la recherche de n'importe quelle ville du monde afin d'y trouver des informations météorologiques sur l'instant et une prévision (pour la v2 et la v3) sur 7 jours.
+Ce site met à disposition une barre de recherche permettant la recherche de n'importe quelle ville du monde afin d'y trouver des informations météorologiques en temps réel. Une page de contact et une page d'aide sont également présentes. Un system de prévision sur 7 jours apparaît dès la seconde version.
 
 # Droits d'auteur
 Vous pouvez télécharger et utiliser ce projet comme bon vous semble, et si vous avez envie de me taguer, je suis preneuse.

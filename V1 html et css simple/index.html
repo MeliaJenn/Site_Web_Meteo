@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Météo</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Verdana&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="./js/function.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Ma Météo</h1>
+    </header>
+
+    <div class="content">
+      <h2 class="home-text">
+        Comment utiliser le site ?<br>
+        <h3 class="home-text">
+          Ecrire le nom de la ville souhaité<br>
+          Appuyer sur "En savoir plus" pour plus de détails<br>
+          Appuyer sur "Retirer les détails" pour moins de détails
+        </h3>
+      </h2>
+     
+      
+
+
+      <div class="text-field">
+        <input type="text" id="cityName" placeholder="ex : Paris">
+      </div>
+      <button id="search-city-button" onclick="getWeather()" >Valider</button>
+      
+      <div id="weather-small"></div>
+      <button id="details-switch-button" onclick="toggleDetails()" disabled>En savoir plus</button>
+      <div id="weather-details"></div>
+    </div>
+  
+    <footer>
+      <p></p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="./pages/contact.html">Contact</a></li>
+          <li><a href="./pages/help.html">Aide</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+  </body>
+</html>
