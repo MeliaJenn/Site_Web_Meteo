@@ -1,0 +1,47 @@
+/* --------------- Variables --------------- */
+:root {
+  --primary-color: #d2b48c;
+  --header-color: #bc8f8f; /* Exemple de nouvelle couleur pour le header */
+  --footer-color: #d2b48c; /* Exemple de nouvelle couleur pour le footer */
+}
+
+/* --------------- Global --------------- */
+body {
+  font-family: 'Verdana', sans-serif;
+  background-color: #f5f5f5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* --------------- Main --------------- */
+
+#weather-details,
+#weather-forecast {
+  border-radius: 50px;
+}
+
+#details-switch-button,
+#search-city-button {
+  cursor: pointer;
+  background-color: #bc8f8f;
+  color: white;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  border: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+#details-switch-button:hover,
+#search-city-button:hover {
+  background-color: #a07070;
+}
+
+.weather-icon {
+  height: 150px; /* Ajustez la hauteur selon vos besoins */
+  width: auto; /* Maintient les proportions */
+  object-fit: contain; /* Assure que l'image reste entière */
+}

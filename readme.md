@@ -8,6 +8,8 @@ Le but de ces TPs est de réaliser le même site plusieurs fois avec des nouveau
 
 Ce site met à disposition une barre de recherche permettant la recherche de n'importe quelle ville du monde afin d'y trouver des informations météorologiques en temps réel. Une page de contact et une page d'aide sont également présentes. Un system de prévision sur 7 jours apparaît dès la seconde version.
 
+![Visuel global des sites](img_site_global.png)
+
 # Droits d'auteur
 Vous pouvez télécharger et utiliser ce projet comme bon vous semble, et si vous avez envie de me taguer, je suis preneuse.
 Bon projet !
